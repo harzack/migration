@@ -1,0 +1,43 @@
+/* site css */
+header, footer {
+	background-color: lightgray;
+	border: solid 1px black;
+	/*font-family: Georgia, "Times New Roman", Times, serif; */
+}
+
+header nav {
+	float: right;
+	margin-right: 5px;
+}
+
+header nav li {
+	display: inline;
+	font-size: 12px;
+}
+
+body {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 14px;
+	background-color: #69C;
+}
+
+a {
+	color: blue;
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+footer {
+	padding: 10px;
+	border-radius: 3px;
+}
+
+.container {
+	width: 989px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 5px;
+}

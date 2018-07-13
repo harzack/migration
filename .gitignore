@@ -1,0 +1,7 @@
+.json
+.xml
+filestore/
+destination/
+source/
+node_modules/
+migration.bbprojectd
