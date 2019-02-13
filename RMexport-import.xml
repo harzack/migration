@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<importexport applanguage='USA' appname='Content Server' appversion='10.5.0' dtdversion='10.0' exportdate='2018-11-21T11:32:50'>
+  <RMClassification description='' managementtype='manual' name='Transitory' selectable='true' subtype='551'>
+    <multilingual description='' language='en_CA' name='Transitory'>
+    </multilingual>
+    <rsi>AC &gt; DES</rsi>
+    <filenumber>TRANS</filenumber>
+    <filestatus>ACT</filestatus>
+    <createdate>20161006</createdate>
+    <filestatusdate>20161006</filestatusdate>
+    <essential>0</essential>
+    <storage>ELEC</storage>
+    <cycleperiod>0</cycleperiod>
+    <closedflag>0</closedflag>
+    <RMClassification description='' managementtype='manual' name='transitory 2yrs' selectable='true' subtype='551'>
+      <multilingual description='' language='en_CA' name='transitory 2yrs'>
+      </multilingual>
+      <rsi>AC &gt; DES</rsi>
+      <filenumber>-01</filenumber>
+      <filestatus>ACT</filestatus>
+      <createdate>20181121</createdate>
+      <filestatusdate>20181121</filestatusdate>
+      <essential>0</essential>
+      <storage>ELEC</storage>
+      <keywords>Keyword details - 2 years</keywords>
+      <subject>Subject details - 2 years disposition</subject>
+      <dispauthority>RDA</dispauthority>
+      <cycleperiod>12</cycleperiod>
+      <closedflag>0</closedflag>
+    </RMClassification>
+  </RMClassification>
+</importexport>
