@@ -2829,6 +2829,7 @@
       "resolved": "https://registry.npmjs.org/walk/-/walk-2.3.14.tgz",
       "version": "2.3.14"
     },
-    "xmlbuilder": "^10.1.1"
+    "xmlbuilder": "^10.1.1",
+    "xmlsplit": "^1.2.8"
   }
 }
