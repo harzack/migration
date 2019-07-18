@@ -1,3 +1,5 @@
+/*jslint node: true */
+
 'use strict';
 
 var XmlSplit = require('xmlsplit');
@@ -16,7 +18,7 @@ var inputStream = fs.createReadStream(DestinationFileName);
 var splitIteration = 1;
 
 inputStream.pipe(xmlsplit).on('data', function(data) {
-    var xmlDocument = data.toString()
+    var xmlDocument = data.toString();
     // do something with xmlDocument ..
     var SplitFileName = "./destination/splitresult/oiEKME_" + cuttOffDate + "_" + iterationRun + "_" + splitIteration + ".xml";
 	fs.writeFile(SplitFileName, '<?xml version="1.0" encoding="utf-8"?>\r\n', function(err) {
