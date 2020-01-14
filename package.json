@@ -50,6 +50,7 @@
     "json2csv": "^4.5.0",
     "klaw": "^3.0.0",
     "klaw-sync": "^6.0.0",
+    "node-expat": "^2.3.18",
     "npm": {
       "dependencies": {
         "JSONStream": {
@@ -2830,6 +2831,8 @@
       "resolved": "https://registry.npmjs.org/walk/-/walk-2.3.14.tgz",
       "version": "2.3.14"
     },
+    "xml-js": "^1.6.11",
+    "xml2js": "^0.4.23",
     "xmlbuilder": "^10.1.1",
     "xmlsplit": "^1.2.8"
   }
