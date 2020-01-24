@@ -5,3 +5,11 @@ destination/
 source/
 node_modules/
 migration.bbprojectd
+target0.zip
+target1.zip
+checks/2006ListOfXMLFiles.json
+checks/2008ListOfXMLFiles.json
+checks/listof2006files.json
+checks/listof2008files.json
+target2.zip
+target3.zip
