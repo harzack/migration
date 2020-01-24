@@ -1,0 +1,38 @@
+node --max-old-space-size=1024 index.js #increase to 1gb
+node --max-old-space-size=2048 index.js #increase to 2gb
+node --max-old-space-size=3072 index.js #increase to 3gb
+node --max-old-space-size=4096 index.js #increase to 4gb
+node --max-old-space-size=5120 index.js #increase to 5gb
+node --max-old-space-size=6144 index.js #increase to 6gb
+node --max-old-space-size=7168 index.js #increase to 7gb
+node --max-old-space-size=8192 index.js #increase to 8gb
+
+node --max-old-space-size=8192 lib/eDOCS2GCdocsOIXML.js
+
+
+
+- delete all files in a folder:
+DEL /F/Q/S *.* > NUL
+- delete all folders:
+RMDIR /Q/S <foldername>
+
+- List all files in a directory:
+dir [pathtothefoldercontainingthefiles] /a-d /s /b >> c:\temp\listoffiles.txt
+
+Regex:
+- find titles which contains "&":
+<title language='en_CA'>(.*?\&{1,}.*?)<\/title>
+- find titles which are longer than 248 characters:
+<title language='en_CA'>(.{248,})<\/title>
+- find all <file> tag lines:
+<file>(.*?)<\/file>
+
+Errors to check after building OI XML:
+- 248 characters in titles
+- empty names (::, :::, etc...)
+- length of attributes
+- cross check the files
+
+location Replace:
+<location>DFO/CCG - GCDOCS:Legacy(EKME):National Capital Region::Int`l Affairs</location>	with 	<location>DFO/CCG - GCDOCS:Legacy(EKME):National Capital Region:Fisheries and Aquaculture Management:Int`l Affairs</location>
+<location>DFO/CCG - GCDOCS:Legacy(EKME):National Capital Region::Human Resources</location> with  <location>DFO/CCG - GCDOCS:Legacy(EKME):National Capital Region:Human Resources and Corporate Services:Human Resources</location>

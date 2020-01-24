@@ -2,6 +2,7 @@
   "requires": true,
   "lockfileVersion": 1,
   "dependencies": {
+    "archiver": "^3.1.1",
     "backbone": {
       "integrity": "sha1-TMgOp8sWMaxHSInOQPL4vGg7KZk=",
       "requires": {
