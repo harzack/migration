@@ -26,12 +26,16 @@ Regex:
 <title language='en_CA'>(.{248,})<\/title>
 - find all <file> tag lines:
 <file>(.*?)<\/file>
+- \x{0B}
 
 Errors to check after building OI XML:
 - 248 characters in titles
 - empty names (::, :::, etc...)
 - length of attributes
+- length of versions description (<255)
 - cross check the files
+- verify that no files are hidden
+- check the first line of XML after the split
 
 location Replace:
 <location>DFO/CCG - GCDOCS:Legacy(EKME):National Capital Region::Int`l Affairs</location>	with 	<location>DFO/CCG - GCDOCS:Legacy(EKME):National Capital Region:Fisheries and Aquaculture Management:Int`l Affairs</location>

@@ -2748,6 +2748,7 @@
       "resolved": "https://registry.npmjs.org/npm/-/npm-6.4.1.tgz",
       "version": "6.4.1"
     },
+    "replace-in-file": "^5.0.2",
     "tui-code-snippet": {
       "integrity": "sha512-a7XzHRbRDi6Tt4lGcopq6ctQjVrzmnw9JMoTFqur5gczgtw5tmgUqXHjg8D9IonDkzZNq5gYLhkzykx4fmn+GA==",
       "resolved": "https://registry.npmjs.org/tui-code-snippet/-/tui-code-snippet-1.4.0.tgz",
